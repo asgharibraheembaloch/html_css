@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- meta tag are good for seo -->
+    <!-- utf 8 character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- you can describe whats your website for -->
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>html 5 is more semantic</header>
+    <aside></aside>
+    <section></section>
+    <footer></footer>
+    <h1>logical and physical tags</h1> <br />
+    i am <b>bold</b> <br />
+    <p> b tag does not convey much in semantic world</p>
+    i am <strong>strong</strong> <br>
+    <p>strong is logical tag</p>
+    <p> strong tag convey much in semantic world that this piece of text must stand out </p> <br>
+    <p>i am <i>italic</i></p> <br>
+    <p>i am <em>emphasis tag</em></p>
+    <p>conditional comments</p> <br>
+    <!--[if IE 8]>
+    <link href="ie8only.css" rel="stylesheet">
+    <![endif]-->
+
+    <!--[if lte IE 7]>
+    <style type="text/css">
+    /* CSS here */
+    </style>
+    <![endif]-->
+
+    <h1>Entity tags</h1> <br>
+    <p>quick paragraph</p>
+    <p>this paragraph conatins 'here' mainy scpaces are preserved because of p tag</p>
+    <pre>this paragraph conatins 'here'                                  mainy scpaces but are preserved because of pre tag</pre>
+    <p>this paragraph conatins 'non breaking space' between name= Asghar&nbsp;Ibraheem and is called html entity</p>
+    <p>this paragraph contains html copyright entity &copy;copyright asghar&co</p>
+    <p> &lt;p&gt; by less than and greater than entity tag you can show p tag </p>
+    <p>this is caret symbol entity &caret; </p>
+
+    <h1>Form in html</h1>
+    <form>
+        <input type="text" placeholder="enter your name here"> <br><br>
+        <input type="text" value="this is defualt text"> <br><br>
+        <input type="password" placeholder="this is password input box"> <br><br>
+        <input type="number" placeholder="this is number input box"> <br><br>
+        <input type="file"> <!-- this is file explrer input --> this is file explorer input <br><br>
+        <input type="email" placeholder="this is email input "> <br><br>
+        <input type="submit" value="submit"> <br><br>
+        <input type="adsadsd" placeholder="this is fall back text"> <br><br>
+        <input type="color" placeholder="color selector input"> this is color input box <br><br>
+        <input type="search" placeholder="search any think"> <br><br>
+        <input type="range" min="1" max="100" step="20"> this is range input <br><br>
+        <input type="checkbox"> this is checkbox input <br><br>
+        <input type="date"> this is date input<br><br>
+        <input type="time"> this is time input<br><br>
+        <input type="datetime-local"> this is date and time input<br><br>
+        <input type="button" value="this is button input"> <br><br>
+        <div>
+            <input type="radio" value="male" name="gender">Male <br><br> <!-- group them by name -->
+            <input type="radio" value="female" name="gender"> Female <br>
+        </div>
+    </form>
+
+    <h1>I Frames</h1>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13275.635590318238!2d73.05233364999998!3d33.711306199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1676453040813!5m2!1sen!2s"
+        width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h1>Frames</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hu-q2zYwEYs" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>

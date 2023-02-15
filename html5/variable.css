@@ -1,0 +1,39 @@
+:root {
+    --bgcolor: green;
+    --bgdiv: red;
+    --divpadding: 20px;
+    --standard-font-size:30px + 2em;
+    --h1-font-size: calc(var(--standard-font-size))
+}
+
+/* OR */
+
+/* html {
+    --bgcolor: green;
+    --bgdiv: red;
+} */
+
+/* body {
+    --bgcolor:green;
+    /* background-color: var(--bgcolor); 
+}*/
+
+
+/* div {
+    --bgdiv: red;
+    background-color: var(--bgcolor);
+} */
+
+body {
+    background-color: var(--bgcolor); 
+}
+
+
+div {
+    background-color: var(--bgdiv, yellow);
+    padding: var(--divpadding);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}

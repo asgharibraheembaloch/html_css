@@ -1,0 +1,24 @@
+div p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+body div p {
+    color: blue;
+}
+
+#p-tag {
+    color: green;
+}
+
+.class-tag{
+    color: burlywood;
+}
+
+#p-tag.class-tag {
+    color: blueviolet;
+}
+

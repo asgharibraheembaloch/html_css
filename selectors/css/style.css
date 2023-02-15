@@ -1,0 +1,23 @@
+body{
+    font-size: 22px;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+.gray {
+    color: grey;
+}
+
+.red {
+    color: red;
+}
+
+#second{
+    font-style: italic;
+}

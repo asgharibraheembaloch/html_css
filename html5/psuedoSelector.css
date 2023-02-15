@@ -1,0 +1,38 @@
+body {
+    background-color: burlywood;
+}
+li {
+    background-color: black;
+    color: white;
+}
+
+li:hover {
+    color: green;
+    background-color: red;
+}
+
+#banner {
+    display: none;
+}
+
+input:focus + #banner {
+    display: block;
+}
+
+ul li:nth-child(3){
+    /* using 2n also call nth child select all even elements you can also make calculation in parameter */
+    background: yellow;
+    color: black;
+}
+
+ul li:last-child {
+    /* target last child */
+    background: pink;
+    color: black;
+}
+
+ul li:first-child {
+    /* target last child */
+    background: orange;
+    color: black;
+}

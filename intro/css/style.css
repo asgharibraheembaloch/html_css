@@ -1,0 +1,4 @@
+p {
+    color: purple;  /* if you put wrong property value it just ignore */
+    font-size: 64px;
+}

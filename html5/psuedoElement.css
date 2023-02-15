@@ -1,0 +1,18 @@
+#banner {
+    color: purple;
+    background-color: beige;
+    font-size: large;
+    font-weight: bold;
+}
+
+#banner::before{
+    /* this :: denotes that this is psuedo element not psuedo selector */
+   content: 'this before psuedo element text: ';
+   background-color: aqua;
+}
+
+#banner::after{
+    /* this :: denotes that this is psuedo element not psuedo selector you can't catch this with js */
+   content: ' :this after psuedo element text ';
+   background-color: greenyellow;
+}
