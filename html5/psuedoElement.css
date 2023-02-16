@@ -7,7 +7,7 @@
 
 #banner::before{
     /* this :: denotes that this is psuedo element not psuedo selector */
-   content: 'this before psuedo element text: ';
+   content: 'This before psuedo element text: ';
    background-color: aqua;
 }
 
@@ -15,4 +15,12 @@
     /* this :: denotes that this is psuedo element not psuedo selector you can't catch this with js */
    content: ' :this after psuedo element text ';
    background-color: greenyellow;
+}
+
+#banner::first-letter {
+    text-transform: lowercase;
+}
+
+#banner:hover::before {
+    text-transform: uppercase;
 }

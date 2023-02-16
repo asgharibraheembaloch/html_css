@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+
+h1+p {
+    /* h1+p select imediate siblings of h1 */
+    color: blue;
+}
+
+h1~p {
+    /* h1 ~ p select all siblings of h1 */
+    color: green;
+}
+
+div > h1 {
+    /* select imediate children only not grand children */
+    text-decoration: underline;
+}
+
+section h2 {
+    /* select all grand children */
+    text-decoration: underline;
+}
+
+section * {
+    /* using * will change each and every element on the page */
+    /* if you don't use * only section get updated not child, child inherit their own properties */
+    color: white!important;
+}

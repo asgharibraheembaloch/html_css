@@ -1,0 +1,26 @@
+ul li[data-tag="spicy"]{
+    color: red;
+}
+
+ul li[data-tag]{
+    font-style: italic;
+}
+
+ul li:not([data-tag]){
+    font-style: italic;
+    color: blue;
+}
+
+ul li[data-tag^="big"]{
+    color: burlywood;
+}
+
+ul li[data-tag*="aalo"]{
+    color: brown;
+}
+
+ul li[data-tag$="salty"]{
+    /* selector of characheter which ends with */
+    background-color: lightgray;
+}
+
